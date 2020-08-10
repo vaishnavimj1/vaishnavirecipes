@@ -2,7 +2,7 @@ import React from 'react';
 import Search from './components/Search';
 import Recipes from './components/Recipes';
 import './App.css';
-const YOUR_API_KEY=process.env.REACT_APP_API_KEY;
+
 class App extends React.Component {
   
   constructor(props)
@@ -16,7 +16,7 @@ class App extends React.Component {
 
 searchRecipe(recipename)
 {
-  fetch(`https://www.food2fork.com/api/search?key=${YOUR_API_KEY}&q=${recipename}`)
+  fetch(`https://cors-anywhere.herokuapp.com/https://recipesapi.herokuapp.com/api/search?q=${recipename}`)
   .then(response=>response.json())
   //.then(data=>console.log("fectched json data",data))
   .then(data=>this.setState({
