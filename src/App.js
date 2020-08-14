@@ -31,7 +31,10 @@ render()
   return(
     <div className="App">
       <header className="App-header">
-        <h1>Recipe</h1>
+        <h1>RECIPES</h1>
+        <header className="header4">
+        <h5>Quick and Easy Delicious Recipes</h5>
+        </header>
       </header>
       <Search onSubmit={this.searchRecipe} />
       <br />
