@@ -1,3 +1,6 @@
+body{
+  background-color: #fffdd0;
+}
 .App {
   text-align: center;
 }
@@ -6,7 +9,8 @@
   align-items: center;
   justify-content: center;
   font-size: 40px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Impact, Charcoal, sans-serif;
+  text-shadow: 4px 4px 5px rgba(84, 94, 84, 0.815);
   color: rgb(76, 3, 83);
 }
 .header4{
@@ -16,12 +20,12 @@
 
 .Searchbar button{
   background-color: black;
-  color:rgb(208, 152, 240);
+  color:rgb(7, 170, 199);
   font-size:15px;
 }
 .back
 {
-  background-color: rgb(149, 128, 240);
+  background-color: rgb(205, 247, 129);
 }
 
 .Recipe {
